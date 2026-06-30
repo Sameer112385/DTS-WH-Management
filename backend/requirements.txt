@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+pandas
+openpyxl
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+reportlab
+cryptography
+pydantic-settings
