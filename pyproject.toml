@@ -1,0 +1,4 @@
+# pyproject.toml
+
+[tool.vercel]
+entrypoint = "backend.main:app"
