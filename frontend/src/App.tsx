@@ -16,7 +16,6 @@ import CompanySetup from './components/CompanySetup';
 import ModuleDataTools from './components/ModuleDataTools';
 import { User, Plant, StorageLocation, Warehouse, Project, WbsElement, Department, CostCenter, MRF, MaterialReceiving, MaterialTransfer, Discrepancy, MB52UploadHistory, Cancellation, AuditTrail, CompanySetting } from './types';
 
-#const API_BASE = `http://${window.location.hostname}:8000/api/v1`;
 const API_BASE = import.meta.env.DEV
   ? `http://${window.location.hostname}:8000/api/v1`
   : '/api/v1';
